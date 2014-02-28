@@ -4,6 +4,10 @@
     padding: 10px;
 }
 
+background {
+    color: #c0c0c0;
+}
+
 body {
     font-family: georgia, serif;
     font-size: 16px;
@@ -15,11 +19,13 @@ p {
 }
 
 header {
-    color: #000000;
+    color: #99FFFF;
+    background-color: #c0c0c0;
     height: 200px;
 }
 
 header h1 {
+    color: #ffffff;
     float: right;
     font-family: helvetica, arial, sans-serif;
     font-size: 48px;
@@ -29,6 +35,7 @@ header h1 {
 }
 
 header h2 {
+    color: #99ffff;
     text-align: center;
     font-size: 18px;
     float: right;
@@ -40,7 +47,7 @@ header nav {
 }
 
 header a {
-    color: #000000;
+    color: #ffffff;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -56,7 +63,6 @@ header a:active {
 header a:focus {}
 
 article {
-    box-sizing: border;
     clear: both; 
     padding: 10px 10px 10px 10px;
 }
@@ -80,6 +86,7 @@ aside {
 }
 
 footer {
+    background-color: #c0c0c0;
     clear: right;
     font-size: 12px;
     padding: 0 10px 0 10px;
