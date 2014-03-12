@@ -1,93 +1,76 @@
 * {
-    box-sizing: border-box;
     margin: 0;
-    padding: 10px;
-}
-
-background {
-    color: #c0c0c0;
+    padding: 0;
 }
 
 body {
-    font-family: georgia, serif;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-p {
-    margin-bottom: 1rem;
+    width:960px;
+    background-color: #3D001F;
+    margin: 30px 60px 30px 60px;
+    padding: 10px;
 }
 
 header {
-    color: #99FFFF;
-    background-color: #c0c0c0;
-    height: 200px;
+    width:930px;
+    padding:10px;
+    height:166px;
+    text-align:center;
+    background-color: #337D7D;
+    margin-left:auto;
+    margin-right: auto;
+    outline:5px double #3D001F;
+    outline-offset:0;
+    border: solid 5px #000000;
 }
 
-header h1 {
+nav {
+    width:920px;
+    height:18px;
+    padding:10px;
+    text-align:center;
+    background-color: #808080;
+    outline:5px double #3D001F;
+    margin: 10px 0 10px 0;
+}
+
+nav a:link {
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+
+nav a:visited {
     color: #ffffff;
-    float: right;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 48px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    padding: 10px; /* TRouBLe */
+    font-weight: bold;   
 }
-
-header h2 {
-    color: #99ffff;
-    text-align: center;
-    font-size: 18px;
-    float: right;
-}
-
-header nav {
-    float: right;
-    margin: 12px;   
-}
-
-header a {
-    color: #ffffff;
-    margin-right: 20px;
-    text-decoration: none;
-}
-
-header a:link {}
-header a:visited {}
-header a:hover {
-    color: #ffffff;
-}
-header a:active {
-    text-decoration: underline;
-}
-header a:focus {}
-
+    
 article {
-    clear: both; 
-    padding: 10px 10px 10px 10px;
+    width:920px;
+    padding:10px;
+    margin: 20px 0px 20px 0px;
+    text-align:center;
+    background-color: #337D7D;
+    outline:5px double #3D001F;
+    line-height:160%;
+    border: solid 10px #000000;
 }
 
-article h1 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-top: 4px;
-}
-
-article h2 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 4px;
+footer {
+    width:930px;
+    padding:10px;
+    text-align:center;
+    background-color: #337D7D;
+    outline:5px double #3D001F;
+    outline-offset:0;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid 5px #000000;
 }
 
 aside {
     float: left;
-    margin: 0 0 0 0;
+    margin: 10px 0 0 0;
     width: 47.5%;
 }
 
-footer {
-    background-color: #c0c0c0;
-    clear: right;
-    font-size: 12px;
-    padding: 0 10px 0 10px;
-}
