@@ -59,6 +59,15 @@ article {
     float:left;
 }
 
+#content {
+    height:auto;
+    padding:10px;
+    background-color: #337D7D;
+    outline:5px double #3D001F;
+    line-height:160%;
+    border: solid 5px #000000;
+}
+
 aside {
     float:left;
     margin: 10px 10px 0 10px;
