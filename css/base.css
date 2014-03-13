@@ -11,6 +11,13 @@ body {
     background-color: #3D001F;
 }
 
+p, {
+    text-align: left;
+    font-family: 'Arial' sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 header {
     padding:10px;
     max-height: 720px;
@@ -38,16 +45,24 @@ nav a:link {
 }
 
 nav a:visited {
-    color: #ffffff;
+    color: #3D001F;
     font-weight: bold;   
 }
     
 article {
+    height:auto;
     padding:10px;
     background-color: #337D7D;
     outline:5px double #3D001F;
     line-height:160%;
     border: solid 5px #000000;
+    float:left;
+}
+
+aside {
+    float:left;
+    margin: 10px 10px 0 10px;
+    width: 47.5%;
 }
 
 footer {
@@ -59,17 +74,14 @@ footer {
     border: solid 5px #000000;
 }
 
-aside {
-    float: left;
-    margin: 10px 10px 0 10px;
-    width: 47.5%;
-    text-align: center;
+h2, a:visited {
+    color: #3D001F;
 }
 
-p, {
-    text-align: left;
+a:link {
+    color: #000000;
+    font-weight:800;
 }
-
 
 @media screen and (max-width:600px) {
     body {
