@@ -12,19 +12,16 @@ body {
 }
 
 header {
-    width:720px;
     padding:10px;
     height:166px;
     text-align:center;
     background-color: #337D7D;
-    margin:30px 0px 30px 90px;
     outline:5px double #3D001F;
     outline-offset:0;
     border: solid 5px #000000;
 }
 
 nav {
-    width:710px;
     height:18px;
     padding:5px;
     text-align:center;
@@ -46,8 +43,6 @@ nav a:visited {
 }
     
 article {
-    width:720px;
-    margin:30px 0px 30px 90px;
     padding:10px;
     background-color: #337D7D;
     outline:5px double #3D001F;
@@ -56,13 +51,11 @@ article {
 }
 
 footer {
-    width:720px;
     padding:10px;
     text-align:center;
     background-color: #337D7D;
     outline:5px double #3D001F;
     outline-offset:0;
-    margin:30px 0px 30px 90px;
     border: solid 5px #000000;
 }
 
@@ -75,4 +68,22 @@ aside {
 
 p, {
     text-align: left;
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        padding: 3%;
+        width: 100%;
+    }
+    
+    h1, h2 {
+        text-align: center;
+    }
+    
+    nav {
+        border: 0%;
+        width: 100%;
+    }
+    
 }
