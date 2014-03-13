@@ -13,7 +13,7 @@ body {
 
 header {
     padding:10px;
-    height:166px;
+    max-height: 720px;
     text-align:center;
     background-color: #337D7D;
     outline:5px double #3D001F;
@@ -27,7 +27,7 @@ nav {
     text-align:center;
     background-color: #808080;
     outline:5px double #3D001F;
-    margin: 20px 0 0px 0;
+    margin: 10px 0 0 0;
 }
 
 nav a:link {
