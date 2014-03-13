@@ -4,10 +4,11 @@
 }
 
 body {
-    width:0px;
+    width:90%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px;
     background-color: #3D001F;
-    margin: 30px 60px 30px 60px;
-    padding: 10px;
 }
 
 header {
