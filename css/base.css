@@ -107,4 +107,9 @@ a:link {
         width: 100%;
     }
     
+    nav a:link {
+        font-size: 15px;
+        padding: 5px;
+    }
+    
 }
