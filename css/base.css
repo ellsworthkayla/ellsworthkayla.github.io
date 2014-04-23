@@ -41,6 +41,7 @@ nav {
     background-color: #808080;
     outline:5px double #3D001F;
     margin: 10px 0 10px 0;
+    clear: both;
 }
 
 nav a:link {
@@ -56,11 +57,11 @@ nav a:visited {
 }
     
 article {
-    height:auto;
+    height: auto;
     padding:10px;
     background-color: #337D7D;
+    line-height: 160%;
     outline:5px double #3D001F;
-    line-height:160%;
     border: solid 5px #000000;
     float:left;
 }
@@ -85,7 +86,7 @@ ul {
 aside {
     float: left;
     margin: 10px 10px 0 10px;
-    width: 47.5%;
+    width: 47.5%
 }
 
 footer {
@@ -129,6 +130,7 @@ a:link {
     
     aside {
         float: none;
+        width: 50%;
     }
     
     p {
