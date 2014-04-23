@@ -65,6 +65,10 @@ article {
     float:left;
 }
 
+h1 {
+    font-size: 24px;
+}
+
 ul {
     margin-left: 20px;
 }
@@ -79,6 +83,7 @@ ul {
 }
 
 aside {
+    float: left;
     margin: 10px 10px 0 10px;
     width: 47.5%;
 }
@@ -101,10 +106,6 @@ a:link {
     font-weight:800;
 }
 
-portfolio, p {
-    margin-bottom: 5px;
-}
-
 @media screen and (max-width:600px) {
     body {
         padding: 3%;
@@ -122,8 +123,15 @@ portfolio, p {
     }
     
     nav a:link {
-        font-size: 10px;
+        font-size: 16px;
         padding: 5px;
     }
     
+    aside {
+        float: none;
+    }
+    
+    p {
+        text-align: center;
+    }
 }
