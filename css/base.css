@@ -15,6 +15,7 @@ p {
     text-align: left;
     font-family: 'Arial' sans-serif;
     font-size: 15px;
+    font-weight:600;
     line-height: 24px;
     margin-bottom: 20px;
 }
@@ -99,6 +100,10 @@ h2, a:visited {
 a:link {
     color: #000000;
     font-weight:800;
+}
+
+portfolio, p {
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width:600px) {
