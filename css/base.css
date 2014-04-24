@@ -10,12 +10,19 @@ body {
     background-color: #3D001F;
 }
 
-p {
-    
+p, h1, h2, h3, h4 {
+   font-family: Bookman Oldstyle, Bookman, Serif;
 }
 
 h1 {
-   font-size: 30px; 
+    font-weight:300;
+    font-size: 50px; 
+    margin: 10px 0 15px 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight:200;
 }
 
 header {
@@ -39,7 +46,6 @@ article {
     height: auto;
     padding:10px;
     background-color: #337D7D;
-    line-height: 160%;
     outline:5px double #3D001F;
     border: solid 5px #000000;
 }
@@ -69,4 +75,24 @@ footer {
     outline-offset:0;
     border: solid 5px #000000;
     clear: right;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        padding:3%;
+        width:100%;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .sidebar {
+        clear: both;
+        width: 50%;
+    }
+    
+    figure img {
+        clear:right;
+    }
 }
