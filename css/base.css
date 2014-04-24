@@ -7,9 +7,7 @@
 body {
     width: 90%;
     margin: auto;
-    min-width: 600px;
-    max-width: 2000px;
-    background-color: #ffffff;
+    background-color: #3D001F;
 }
 
 p {
@@ -17,7 +15,7 @@ p {
 }
 
 h1 {
-    
+   font-size: 30px; 
 }
 
 header {
@@ -29,6 +27,14 @@ header {
     border: solid 5px #000000;
 }
 
+nav {
+    background-color: #808080;
+    outline:5px double #3D001F;
+    margin: 10px 0 10px 0;
+    height: 30px;
+    padding: 5px;
+}
+
 article {
     height: auto;
     padding:10px;
@@ -38,6 +44,9 @@ article {
     border: solid 5px #000000;
 }
 
+ul {
+    margin-left: 3%;
+}
 
 .sidebar {
     width: 45%;
@@ -47,12 +56,9 @@ article {
 }
 
 figure img {
-   float: right;
+    float: right;
     margin-left: 3%;
-}
-
-ul {
-    margin-left: 3%;
+    width: 50%;
 }
 
 footer {
@@ -63,5 +69,4 @@ footer {
     outline-offset:0;
     border: solid 5px #000000;
     clear: right;
-
 }
