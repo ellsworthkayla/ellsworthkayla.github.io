@@ -17,7 +17,7 @@ p, h1, h2, h3, h4 {
 h1 {
     font-weight:300;
     font-size: 50px; 
-    margin: 10px 0 15px 0;
+    margin: 10px 0 10px 0;
 }
 
 p {
@@ -38,8 +38,19 @@ nav {
     background-color: #808080;
     outline:5px double #3D001F;
     margin: 10px 0 10px 0;
-    height: 30px;
+    height: 40px;
     padding: 5px;
+}
+
+nav a:link {
+    color: #000000;
+    font-size: 18px;
+    font-weight:600; 
+    padding: 5px;
+}
+
+nav a:visited {
+    color:#3D001F;
 }
 
 article {
@@ -54,6 +65,15 @@ ul {
     margin-left: 3%;
 }
 
+a:link {
+    color: #000000;
+    font-weight:800;
+}
+
+a:visited {
+    color:#3D001F;
+}
+
 .sidebar {
     width: 45%;
     float: right;
@@ -65,6 +85,7 @@ figure img {
     float: right;
     margin-left: 3%;
     width: 50%;
+    max-height: 580px;
 }
 
 footer {
@@ -83,6 +104,10 @@ footer {
         width:100%;
     }
     
+    article {
+        padding:3%;
+    }
+    
     h1 {
         text-align: center;
     }
@@ -94,5 +119,14 @@ footer {
     
     figure img {
         clear:right;
+    }
+    
+    nav {
+        height:50px;
+    }
+    
+    nav a:link {
+        padding:10px;
+        text-align:center;
     }
 }
